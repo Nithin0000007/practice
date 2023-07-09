@@ -346,3 +346,23 @@ a {
     top: 300px;
     z-index: 99;
 }
+
+.page6{
+    height: 110%;
+    width: 100%;
+    position: relative;
+    top: 800px;
+}
+
+.page6-part1{
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page6-part2{
+    height: 40%;
+    background-color: black;
+    color: white;
+}
