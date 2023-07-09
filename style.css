@@ -366,3 +366,151 @@ a {
     background-color: black;
     color: white;
 }
+
+
+  /* -----------------------------------------------------------------------------------*/
+
+
+  /* Desktop Screens (1025px and above) */
+@media only screen and (min-width: 1025px) {
+    .nav-ul {
+      padding: 0 150px;
+      font-size: 19px;
+    }
+    
+    .x-img {
+      top: 33px;
+      left: 685px;
+      width: 200px;
+      height: 55px;
+      font-size: 16px;
+    }
+    
+    .butn {
+      top: 450px;
+      left: 150px;
+      height: 65px;
+      width: 247px;
+      font-size: 23px;
+    }
+    
+    .h001 {
+      font-size: 40px;
+    }
+    
+    .p001 {
+      top: -20px;
+      font-size: 18px;
+    }
+    
+    .page-part-1 {
+      padding: 20px 200px 80px 100px;
+    }
+    
+    .page-part-2 {
+      right: -35px;
+    }
+    
+    .page2-div {
+      gap: 25px;
+    }
+    
+    .h002 {
+      top: -50px;
+      font-size: 36px;
+    }
+    
+    .page4-part1 {
+      align-items: flex-start;
+    }
+    
+    .h004 {
+      font-size: 32px;
+    }
+    
+    .bt001 {
+      height: 60px;
+      width: 200px;
+      font-size: 23px;
+    }
+    
+    .page5-bg {
+      bottom: 225px;
+      left: 109px;
+      width: 85%;
+      border-radius: 42px;
+    }
+  }
+
+
+  /* Tablet Devices (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .nav-ul {
+      padding: 0 20px;
+      font-size: 16px;
+    }
+  
+    .x-img {
+      width: 150px;
+      height: 42px;
+      font-size: 14px;
+    }
+  
+    .butn {
+      top: 420px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 55px;
+      width: 200px;
+      font-size: 20px;
+    }
+  
+    .h001 {
+      font-size: 32px;
+    }
+  
+    .p001 {
+      top: -18px;
+      font-size: 16px;
+    }
+  
+    .page-part-1 {
+      padding: 20px 100px 80px 50px;
+    }
+  
+    .page-part-2 {
+      right: -25px;
+    }
+  
+    .page2-div {
+      height: 45%;
+      width: 80%;
+    }
+  
+    .h002 {
+      top: -40px;
+      font-size: 32px;
+    }
+  
+    .page4-part1 {
+      align-items: center;
+    }
+  
+    .h004 {
+      font-size: 28px;
+    }
+  
+    .bt001 {
+      height: 55px;
+      width: 180px;
+      font-size: 20px;
+    }
+  
+    .page5-bg {
+      bottom: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      border-radius: 36px;
+    }
+  }
